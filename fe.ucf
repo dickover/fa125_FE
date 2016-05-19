@@ -1,0 +1,315 @@
+NET "aclk" LOC = R8;
+NET "rclk" LOC = B9;
+NET "FeRdCmd" LOC = C11;
+NET "FeRdStart" LOC = D11;
+NET "adcclko" LOC = H4;
+
+INST "adca<0>"      LOC=V4  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adca<0>" PULLDOWN;
+INST "adca<1>"      LOC=T4  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adca<1>" PULLDOWN;
+INST "adca<2>"      LOC=V3  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adca<2>" PULLDOWN;
+INST "adca<3>"      LOC=T3  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adca<3>" PULLDOWN;
+INST "adca<4>"      LOC=U2  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adca<4>" PULLDOWN;
+INST "adca<5>"      LOC=U1  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adca<5>" PULLDOWN;
+INST "adca<6>"      LOC=T2  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adca<6>" PULLDOWN;
+INST "adca<7>"      LOC=T1  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adca<7>" PULLDOWN;
+INST "adca<8>"     LOC=R3  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adca<8>" PULLDOWN;
+INST "adca<9>"     LOC=P2  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adca<9>" PULLDOWN;
+INST "adca<10>"     LOC=P1  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adca<10>" PULLDOWN;
+INST "adca<11>"     LOC=N3  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adca<11>" PULLDOWN;
+
+INST "adcb<0>"      LOC=V10 | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcb<0>" PULLDOWN;
+INST "adcb<1>"      LOC=U10 | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcb<1>" PULLDOWN;
+INST "adcb<2>"      LOC=V9  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcb<2>" PULLDOWN;
+INST "adcb<3>"      LOC=T9  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcb<3>" PULLDOWN;
+INST "adcb<4>"      LOC=V8  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcb<4>" PULLDOWN;
+INST "adcb<5>"      LOC=U8  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcb<5>" PULLDOWN;
+INST "adcb<6>"      LOC=V7  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcb<6>" PULLDOWN;
+INST "adcb<7>"      LOC=U7  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcb<7>" PULLDOWN;
+INST "adcb<8>"     LOC=V6  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcb<8>" PULLDOWN;
+INST "adcb<9>"     LOC=T6  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcb<9>" PULLDOWN;
+INST "adcb<10>"     LOC=T5  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcb<10>" PULLDOWN;
+INST "adcb<11>"     LOC=N5  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcb<11>" PULLDOWN;
+
+INST "adcc<0>"      LOC=F3  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcc<0>" PULLDOWN;
+INST "adcc<1>"      LOC=E4  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcc<1>" PULLDOWN;
+INST "adcc<2>"      LOC=J3  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcc<2>" PULLDOWN;
+INST "adcc<3>"      LOC=J1  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcc<3>" PULLDOWN;
+INST "adcc<4>"      LOC=H2  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcc<4>" PULLDOWN;
+INST "adcc<5>"      LOC=H1  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcc<5>" PULLDOWN;
+INST "adcc<6>"      LOC=G3  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcc<6>" PULLDOWN;
+INST "adcc<7>"      LOC=G1  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcc<7>" PULLDOWN;
+INST "adcc<8>"     LOC=F2  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcc<8>" PULLDOWN;
+INST "adcc<9>"     LOC=F1  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcc<9>" PULLDOWN;
+INST "adcc<10>"     LOC=E3  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcc<10>" PULLDOWN;
+INST "adcc<11>"     LOC=C4  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcc<11>" PULLDOWN;
+
+INST "adcd<0>"      LOC=N2  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcd<0>" PULLDOWN;
+INST "adcd<1>"      LOC=N1  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcd<1>" PULLDOWN;
+INST "adcd<2>"      LOC=M3  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcd<2>" PULLDOWN;
+INST "adcd<3>"      LOC=M1  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcd<3>" PULLDOWN;
+INST "adcd<4>"      LOC=L2  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcd<4>" PULLDOWN;
+INST "adcd<5>"      LOC=L1  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcd<5>" PULLDOWN;
+INST "adcd<6>"      LOC=K2  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcd<6>" PULLDOWN;
+INST "adcd<7>"      LOC=K1  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcd<7>" PULLDOWN;
+INST "adcd<8>"     LOC=L4  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcd<8>" PULLDOWN;
+INST "adcd<9>"     LOC=K3  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcd<9>" PULLDOWN;
+INST "adcd<10>"     LOC=L3  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcd<10>" PULLDOWN;
+INST "adcd<11>"     LOC=K4  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcd<11>" PULLDOWN;
+
+INST "adce<0>"      LOC=B4  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adce<0>" PULLDOWN;
+INST "adce<1>"      LOC=A4  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adce<1>" PULLDOWN;
+INST "adce<2>"      LOC=C5  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adce<2>" PULLDOWN;
+INST "adce<3>"      LOC=A5  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adce<3>" PULLDOWN;
+INST "adce<4>"      LOC=B6  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adce<4>" PULLDOWN;
+INST "adce<5>"      LOC=A6  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adce<5>" PULLDOWN;
+INST "adce<6>"      LOC=A7  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adce<6>" PULLDOWN;
+INST "adce<7>"      LOC=B8  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adce<7>" PULLDOWN;
+INST "adce<8>"     LOC=A8  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adce<8>" PULLDOWN;
+INST "adce<9>"     LOC=C8  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adce<9>" PULLDOWN;
+INST "adce<10>"     LOC=A9  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adce<10>" PULLDOWN;
+INST "adce<11>"     LOC=C7  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adce<11>" PULLDOWN;
+
+INST "adcf<0>"      LOC=E1  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcf<0>" PULLDOWN;
+INST "adcf<1>"      LOC=D2  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcf<1>" PULLDOWN;
+INST "adcf<2>"      LOC=D1  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcf<2>" PULLDOWN;
+INST "adcf<3>"      LOC=C2  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcf<3>" PULLDOWN;
+INST "adcf<4>"      LOC=C1  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcf<4>" PULLDOWN;
+INST "adcf<5>"      LOC=B2  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcf<5>" PULLDOWN;
+INST "adcf<6>"      LOC=D3  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcf<6>" PULLDOWN;
+INST "adcf<7>"      LOC=A2  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcf<7>" PULLDOWN;
+INST "adcf<8>"     LOC=F6  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcf<8>" PULLDOWN;
+INST "adcf<9>"     LOC=H6  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcf<9>" PULLDOWN;
+INST "adcf<10>"     LOC=D8  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcf<10>" PULLDOWN;
+INST "adcf<11>"     LOC=F9  | IOSTANDARD=LVCMOS12 | NODELAY; NET "adcf<11>" PULLDOWN;
+
+NET "feWriterCmd" LOC = A10;
+NET "EVBHOLD" LOC = E13;
+
+INST "evbTokIn"     LOC=N18 | IOSTANDARD=LVCMOS25;
+INST "evbTokOut"    LOC=F17 | IOSTANDARD=LVCMOS25 | DRIVE=12;  # last FPGA drives a long line here
+
+#NET "softRst" LOC = H16;
+NET "led_sig_n" LOC = N8;
+NET "led_lim_n" LOC = N9;
+NET "sclk" LOC = R10;
+NET "sin" LOC = R13;
+NET "sout" LOC = K16;
+NET "cid[0]" LOC = H15;
+NET "cid[1]" LOC = H14;
+NET "cid[2]" LOC = H13;
+NET "cid[3]" LOC = H12;
+#NET "mul[2]" LOC = G18;
+#NET "mul[1]" LOC = F18;
+#NET "mul[0]" LOC = L18;
+
+INST "evbDin<0>"    LOC=E18 | IOSTANDARD=LVCMOS25; NET "evbDin<0>" PULLDOWN; #KEEPER;
+INST "evbDin<1>"    LOC=E16 | IOSTANDARD=LVCMOS25; NET "evbDin<1>" PULLDOWN; #KEEPER;
+INST "evbDin<2>"    LOC=D18 | IOSTANDARD=LVCMOS25; NET "evbDin<2>" PULLDOWN; #KEEPER;
+INST "evbDin<3>"    LOC=D17 | IOSTANDARD=LVCMOS25; NET "evbDin<3>" PULLDOWN; #KEEPER;
+INST "evbDin<4>"    LOC=C18 | IOSTANDARD=LVCMOS25; NET "evbDin<4>" PULLDOWN; #KEEPER;
+INST "evbDin<5>"    LOC=C17 | IOSTANDARD=LVCMOS25; NET "evbDin<5>" PULLDOWN; #KEEPER;
+INST "evbDin<6>"    LOC=A16 | IOSTANDARD=LVCMOS25; NET "evbDin<6>" PULLDOWN; #KEEPER;
+INST "evbDin<7>"    LOC=B16 | IOSTANDARD=LVCMOS25; NET "evbDin<7>" PULLDOWN; #KEEPER;
+INST "evbDin<8>"    LOC=A15 | IOSTANDARD=LVCMOS25; NET "evbDin<8>" PULLDOWN; #KEEPER;
+INST "evbDin<9>"    LOC=C14 | IOSTANDARD=LVCMOS25; NET "evbDin<9>" PULLDOWN; #KEEPER;
+INST "evbDin<10>"   LOC=A14 | IOSTANDARD=LVCMOS25; NET "evbDin<10>" PULLDOWN; #KEEPER;
+INST "evbDin<11>"   LOC=B14 | IOSTANDARD=LVCMOS25; NET "evbDin<11>" PULLDOWN; #KEEPER;
+INST "evbDin<12>"   LOC=A13 | IOSTANDARD=LVCMOS25; NET "evbDin<12>" PULLDOWN; #KEEPER;
+INST "evbDin<13>"   LOC=B12 | IOSTANDARD=LVCMOS25; NET "evbDin<13>" PULLDOWN; #KEEPER;
+INST "evbDin<14>"   LOC=A12 | IOSTANDARD=LVCMOS25; NET "evbDin<14>" PULLDOWN; #KEEPER;
+INST "evbDin<15>"   LOC=B11 | IOSTANDARD=LVCMOS25; NET "evbDin<15>" PULLDOWN; #KEEPER;
+INST "evbDin<16>"   LOC=A11 | IOSTANDARD=LVCMOS25; NET "evbDin<16>" PULLDOWN;  # must deassert on last FE FPGA!
+INST "evbDin<17>"   LOC=C10 | IOSTANDARD=LVCMOS25; NET "evbDin<17>" PULLDOWN;  # must deassert on last FE FPGA!
+
+INST "evbDout<0>"   LOC=P18 | IOSTANDARD=LVCMOS25 | DRIVE=6;   # use FAST ?
+INST "evbDout<1>"   LOC=P17 | IOSTANDARD=LVCMOS25 | DRIVE=6;
+INST "evbDout<2>"   LOC=T18 | IOSTANDARD=LVCMOS25 | DRIVE=6;
+INST "evbDout<3>"   LOC=T17 | IOSTANDARD=LVCMOS25 | DRIVE=6;
+INST "evbDout<4>"   LOC=U18 | IOSTANDARD=LVCMOS25 | DRIVE=6;
+INST "evbDout<5>"   LOC=U17 | IOSTANDARD=LVCMOS25 | DRIVE=6;
+INST "evbDout<6>"   LOC=U16 | IOSTANDARD=LVCMOS25 | DRIVE=6;
+INST "evbDout<7>"   LOC=V16 | IOSTANDARD=LVCMOS25 | DRIVE=6;
+INST "evbDout<8>"   LOC=P15 | IOSTANDARD=LVCMOS25 | DRIVE=6;
+INST "evbDout<9>"   LOC=V15 | IOSTANDARD=LVCMOS25 | DRIVE=6;
+INST "evbDout<10>"  LOC=U15 | IOSTANDARD=LVCMOS25 | DRIVE=6;
+INST "evbDout<11>"  LOC=V14 | IOSTANDARD=LVCMOS25 | DRIVE=6;
+INST "evbDout<12>"  LOC=T14 | IOSTANDARD=LVCMOS25 | DRIVE=6;
+INST "evbDout<13>"  LOC=V13 | IOSTANDARD=LVCMOS25 | DRIVE=6;
+INST "evbDout<14>"  LOC=U13 | IOSTANDARD=LVCMOS25 | DRIVE=6;
+INST "evbDout<15>"  LOC=V12 | IOSTANDARD=LVCMOS25 | DRIVE=6;
+INST "evbDout<16>"  LOC=U11 | IOSTANDARD=LVCMOS25 | DRIVE=6;
+INST "evbDout<17>"  LOC=V11 | IOSTANDARD=LVCMOS25 | DRIVE=6;
+
+
+NET "cid[3]" IOSTANDARD = LVCMOS25;
+NET "cid[3]" PULLUP;
+NET "cid[2]" IOSTANDARD = LVCMOS25;
+NET "cid[2]" PULLUP;
+NET "cid[1]" IOSTANDARD = LVCMOS25;
+NET "cid[1]" PULLUP;
+NET "cid[0]" IOSTANDARD = LVCMOS25;
+NET "cid[0]" PULLUP;
+
+#NET "mul[2]" IOSTANDARD = LVCMOS25;
+#NET "mul[2]" DRIVE = 12;
+#NET "mul[2]" SLEW = FAST;
+#NET "mul[1]" IOSTANDARD = LVCMOS25;
+#NET "mul[1]" DRIVE = 12;
+#NET "mul[1]" SLEW = FAST;
+#NET "mul[0]" IOSTANDARD = LVCMOS25;
+#NET "mul[0]" DRIVE = 12;
+#NET "mul[0]" SLEW = FAST;
+NET "aclk" IOSTANDARD = LVCMOS25;
+NET "adcclko" IOSTANDARD = LVCMOS12;
+NET "feWriterCmd" IOSTANDARD = LVCMOS25;
+NET "EVBHOLD" IOSTANDARD = LVCMOS25;
+NET "rclk" IOSTANDARD = LVCMOS25;
+NET "FeRdCmd" IOSTANDARD = LVCMOS25;
+NET "FeRdStart" IOSTANDARD = LVCMOS25; 
+NET "FeRdStart" PULLUP;
+
+NET "sclk" IOSTANDARD = LVCMOS25;
+NET "sin" IOSTANDARD = LVCMOS25;
+#NET "softRst" IOSTANDARD = LVCMOS25;
+
+NET "FERDBUSY_N" LOC = H7;
+NET "FERDBUSY_N" IOSTANDARD = LVCMOS25;
+NET "FERDBUSY_N" DRIVE = 16;
+NET "FERDBUSY_N" SLEW = FAST;
+
+#NET "AF_n" LOC = C13;
+#NET "AF_n" IOSTANDARD = LVCMOS25; # LVCMOS25
+#NET "AF_n" DRIVE = 16;
+#NET "AF_n" SLEW = FAST;
+
+#NET "FERDERR_n" LOC = K15;
+#NET "FERDERR_n" IOSTANDARD = LVCMOS25; # LVCMOS25 defined in obuft
+#NET "FERDERR_n" DRIVE = 16; # defined in obuft
+#NET "FERDERR_n" SLEW = FAST;
+
+NET "led_sig_n" IOSTANDARD = LVCMOS25;
+NET "led_sig_n" DRIVE = 4;
+NET "led_sig_n" SLEW = SLOW;
+NET "led_lim_n" IOSTANDARD = LVCMOS25;
+NET "led_lim_n" DRIVE = 4;
+NET "led_lim_n" SLEW = SLOW;
+NET "sout" IOSTANDARD = LVCMOS25;
+NET "sout" DRIVE = 12;
+NET "sout" SLEW = SLOW;
+
+
+NET "aclk" TNM_NET = "aclk";
+TIMESPEC TS_aclk = PERIOD "aclk" 7.9 ns HIGH 50 % INPUT_JITTER 0.2 ns;
+  
+#OFFSET = IN 2 ns VALID 4 ns BEFORE "aclk" RISING;
+#OFFSET = IN 2 ns VALID 4 ns BEFORE "aclk" FALLING;
+
+# added timespec on serial interface clock 10/22/2014
+NET "sclk" TNM_NET = "sclk";
+TIMESPEC TS_sclk = PERIOD "sclk" 25 ns;
+  
+# added timespec on 80MHz interface clock 10/22/2014
+NET "rclk" TNM_NET = "rclk";
+TIMESPEC TS_rclk = PERIOD "rclk" 12.5 ns HIGH 50 %;
+
+
+#NET "sclk" TNM_NET = FFS "GRP_1";
+#NET "rclk" TNM_NET = FFS "GRP_2";
+#NET "aclk" TNM_NET = FFS "GRP_3";
+
+#TIMESPEC TS_Example1 = FROM "GRP_1" TO "GRP_3" TIG;
+#TIMESPEC TS_Example2 = FROM "GRP_2" TO "GRP_3" TIG;
+
+  
+# Attepmt to ignoe constraint for cid (whose pins are static)
+#NET "cid[0]" TIG = TS_aclk;
+#NET "cid[1]" TIG = TS_aclk;
+#NET "cid[2]" TIG = TS_aclk;
+#NET "cid[3]" TIG = TS_aclk;
+#
+#NET "algo/UPROCESS_ALL/cid_Q[0]" TIG = TS_aclk;
+#NET "algo/UPROCESS_ALL/cid_Q[1]" TIG = TS_aclk;
+#NET "algo/UPROCESS_ALL/cid_Q[2]" TIG = TS_aclk;
+#NET "algo/UPROCESS_ALL/cid_Q[3]" TIG = TS_aclk;
+	
+## ignore for reset #change, careful, remember
+NET "FeRdStart" TIG = TS_aclk;
+NET "RESET_N_Q" TIG = TS_aclk;
+##
+
+#NET "algo/PTW[*]" TIG = TS_aclk;
+#NET "algo/PL[*]" TIG = TS_aclk;
+#NET "algo/CONFIG1[*]" TIG = TS_aclk;
+#NET "algo/CONFIG2[*]" TIG = TS_aclk;
+
+#NET "algo/TET0[*]" TIG = TS_aclk;
+#NET "algo/TET1[*]" TIG = TS_aclk;
+#NET "algo/TET2[*]" TIG = TS_aclk;
+#NET "algo/TET3[*]" TIG = TS_aclk;
+#NET "algo/TET4[*]" TIG = TS_aclk;
+#NET "algo/TET5[*]" TIG = TS_aclk;
+
+#NET "algo/NP[*]" TIG = TS_aclk;
+#NET "algo/NP2[*]" TIG = TS_aclk;
+#NET "algo/IBIT[*]" TIG = TS_aclk;
+#NET "algo/ABIT[*]" TIG = TS_aclk;
+#NET "algo/PBIT[*]" TIG = TS_aclk;
+
+#NET "algo/THRES_HI_0[*]" TIG = TS_aclk; 
+#NET "algo/THRES_LO_0[*]" TIG = TS_aclk;
+#NET "algo/THRES_HI_1[*]" TIG = TS_aclk;
+#NET "algo/THRES_LO_1[*]" TIG = TS_aclk;
+#NET "algo/THRES_HI_2[*]" TIG = TS_aclk;
+#NET "algo/THRES_LO_2[*]" TIG = TS_aclk;
+#NET "algo/THRES_HI_3[*]" TIG = TS_aclk;
+#NET "algo/THRES_LO_3[*]" TIG = TS_aclk;
+#NET "algo/THRES_HI_4[*]" TIG = TS_aclk;
+#NET "algo/THRES_LO_4[*]" TIG = TS_aclk;
+#NET "algo/THRES_HI_5[*]" TIG = TS_aclk;
+#NET "algo/THRES_LO_5[*]" TIG = TS_aclk;
+
+#NET "algo/IE[*]" TIG = TS_aclk;
+#NET "algo/PG[*]" TIG = TS_aclk;
+##	
+
+
+############################################################################
+
+#	NET "net_name" TIG;
+#	PIN "ff_inst.RST" TIG=TS_1;
+#	INST "instance_name" TIG=TS_2;
+#	TIG=TSidentifier1,..., TSidentifiern
+#
+#	NET "main_?0/top_?0/ddr2_controller_?0/load_mode_reg*" TIG;
+#		The following statement specifies that the timing specifications TS_fast and
+#		TS_even_faster are ignored on all paths fanning forward from the net RESET.
+#	NET "RESET" TIG=TS_fast, TS_even_faster;
+  
+#PIN "FeRdStart_IBUF_BUFG.O" CLOCK_DEDICATED_ROUTE = FALSE;
+#PIN "sclk_BUFGP/BUFG.O" CLOCK_DEDICATED_ROUTE = FALSE;
+#PIN "sc1/Mshreg_sclk_r2.DI2" CLOCK_DEDICATED_ROUTE = FALSE;
+#NET "sclk" CLOCK_DEDICATED_ROUTE = FALSE;
+
+#PIN "algo/UDATAFORMAT/FIFO_CLK_BUF_Q_BUFG.O" CLOCK_DEDICATED_ROUTE = FALSE;
+#PIN "FIFO_WCLK_Q_BUFG.O" CLOCK_DEDICATED_ROUTE = FALSE;
+#PIN "rclk_IBUF_BUFG.O" CLOCK_DEDICATED_ROUTE = FALSE;
+
+#NET "csr[*]" TIG = TS_aclk;
+#NET "PTW_WORDS[*]" TIG = TS_aclk;
+#NET "lookback[*]" TIG = TS_aclk;
+##
+#NET "CONFIG1[*]" TIG = TS_aclk;
+#NET "CONFIG2[*]" TIG = TS_aclk;
+#	
+#NET "TET0[*]" TIG = TS_aclk;
+#NET "TET1[*]" TIG = TS_aclk;
+#NET "TET2[*]" TIG = TS_aclk;
+#NET "TET3[*]" TIG = TS_aclk;
+#NET "TET4[*]" TIG = TS_aclk;
+#NET "TET5[*]" TIG = TS_aclk;
+#
+#NET "PTW_WORDS[*]" TIG = TS_aclk;
+#
+#NET "IE[*]" TIG = TS_aclk;
+#NET "PG[*]" TIG = TS_aclk;
+#
